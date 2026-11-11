@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+import Confetti from "#lib/components/Confetti.svelte";
+</script>
+
+<svelte:head>
+    <title>Jan 80 Jaar!!</title>
+
+</svelte:head>
+
+<Confetti />
