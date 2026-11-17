@@ -1,5 +1,11 @@
+@import url("/fonts/Sketching/Sketching.css");
+
 @import 'tailwindcss';
 
 body {
-    background-color: #aaaaff;
+    background-color: var(--color-blue-500);
+}
+
+@theme {
+    --font-display: "Sketching";
 }
