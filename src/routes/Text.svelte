@@ -1,6 +1,5 @@
 <script>
 import Paragraph from "#lib/components/text/Paragraph.svelte";
-import H1 from "#lib/components/text/H1.svelte";
 import H2 from "#lib/components/text/H2.svelte";
 
 import Adres from "./Adres.svelte";
@@ -8,7 +7,6 @@ import Adres from "./Adres.svelte";
 
 <div>
 
-    <H1>Jan 80 Jaar!!</H1>
     <H2>
         Uitnodiging
     </H2>
