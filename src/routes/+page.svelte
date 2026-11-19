@@ -7,8 +7,14 @@ import Image from "#lib/components/Image.svelte";
 
 <svelte:head>
     <title>Jan 80 Jaar!!</title>
+
     <meta name="description" content="Jan wordt 80 Jaar, komt u ook?"/>
     <meta name="author" content="Regina de Koning"/>
+
+    <meta property="og:title" content="Jan 80 Jaar!!"/>
+
+    <meta property="og:description" content="Jan wordt 80 Jaar, komt u ook?">
+    <meta property="og:image" content="/preview.png">
 </svelte:head>
 
 <main class="w-full min-h-screen flex items-center">
